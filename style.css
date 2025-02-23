@@ -1,3 +1,7 @@
+/* ================================ */
+/*          Global Style            */
+/* ================================ */
+
 :root {
   /* ======Color====== */
 
@@ -7,7 +11,7 @@
   --Dark-purple: hsl(292, 42%, 14%);
 
   /* =======Font======= */
-  font-family: "work", sans-serif;
+  font-family: work, sans-serif;
 }
 
 @font-face {
@@ -19,11 +23,19 @@
   src: url(/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf);
 }
 
+/* ================================ */
+/*          Reset & Global          */
+/* ================================ */
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+
+/* ================================ */
+/*       General Style         */
+/* ================================ */
 
 body {
   display: flex;
@@ -46,7 +58,6 @@ body {
   border-radius: 10px;
 }
 
-
 h1 {
   margin-left: 10px;
   font-size: 3rem;
@@ -62,7 +73,7 @@ summary {
   font-weight: bold;
   cursor: pointer;
   margin: 20px 0px;
-}
+} 
 
 p {
   margin: 35px 20px 25px 0px;
@@ -85,3 +96,12 @@ img {
   align-self: flex-start;
   cursor: pointer;
 }
+
+/* details {
+  overflow: hidden;
+  transition: max-height 10s ease-in-out;
+}
+
+details[open] {
+ max-height: 510px;
+} */
