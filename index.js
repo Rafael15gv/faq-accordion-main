@@ -7,11 +7,11 @@ for (let index = 0; index < 4; index++) {
     // alert("fue activado");
     if (indicador == 0) {
       document.getElementsByTagName("details")[index].open = true;  
-      img.src = "/assets/images/icon-minus.svg";
+      img.src = "assets/images/icon-minus.svg";
       indicador = 1;
     } else {
       document.getElementsByTagName("details")[index].open = false;  
-      img.src = "/assets/images/icon-plus.svg";
+      img.src = "assets/images/icon-plus.svg";
       indicador = 0;
     }
   });
